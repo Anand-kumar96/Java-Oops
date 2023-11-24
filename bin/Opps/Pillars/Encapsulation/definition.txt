@@ -1,0 +1,34 @@
+================OVERLOADING==========
+definition: A class has multiple methods having same name but different in parameters 
+means differ by number of input parameters or input type, is known as Method Overloading.
+
+Method overloading in Java is also known as Compile-time Polymorphism, Static Polymorphism, 
+or Early binding.In Method overloading compared to the parent argument,
+the child argument will get the highest priority.
+
+-----------------------------
+Different Ways of Method Overloading in Java
+1.Changing the Number of Parameters.
+2.Changing Data Types of the Arguments.
+3.Changing the Order of the Parameters of Methods
+
+------------------------------
+Advantages of Method Overloading 
+=> Method overloading improves the Readability and reusability of the program.
+=> Method overloading reduces the complexity of the program.
+=> Using method overloading, programmers can perform a task efficiently and effectively.
+=> Using method overloading, it is possible to access methods performing related functions with slightly different arguments and types.
+=> Objects of a class can also be initialized in different ways using the constructors.
+
+
+
+======================  OVERRIDING IN JAVA ==================
+Definition: Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method 
+that is already provided by one of its super-classes or parent classes. 
+When a method in a subclass has the same name, the same parameters or signature, and the same return type(or sub-type) as a method in its super-class, 
+then the method in the subclass is said to override the method in the super-class.
+
+Method overriding is one of the ways by which Java achieves Run Time Polymorphism.
+The version of a method that is executed will be determined by the object that is used to invoke it.
+If an object of a parent class is used to invoke the method, then the version in the parent class will be executed, 
+but if an object of the subclass is used to invoke the method, then the version in the child class will be executed. 
